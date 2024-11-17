@@ -11,6 +11,13 @@ class MainActivity : ReactActivity() {
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
    */
+
+//  companion object {
+//      // Load the OpenCV library
+//      init {
+//          System.loadLibrary("opencv_java4") // Adjust the name based on your library
+//      }
+//  }
   override fun getMainComponentName(): String = "Hello"
 
   /**
